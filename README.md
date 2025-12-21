@@ -114,4 +114,4 @@ npm run dev
 ## 👨‍💻 Author
 
 **Shubham Kumar**  
-Frontend Developer | React Enthusiast  
+MERN Developer
