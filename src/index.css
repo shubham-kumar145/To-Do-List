@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+
+
+
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #fef3c7; /* amber-200 */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f43f5e; /* rose-500 */
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  /* background-clip:initial; */
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;           
+  scrollbar-color: #f43f5e #fef3c7; /* Thumb and track colors */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===calendar==== */
+
+/* Optional enhancements if needed */
+.rbc-calendar {
+  font-size: 0.95rem;
+}
+
+.rbc-event {
+  background-color: #f59e0b !important; /* amber-500 */
+  border-radius: 0.375rem;
+  padding: 2px 6px;
+  font-weight: 500;
+  color: #1f2937; /* gray-800 */
+}
+
+.rbc-today {
+  background-color: #fef3c7 !important; /* amber-100 */
+}
