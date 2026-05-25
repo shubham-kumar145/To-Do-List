@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-
-
-
-
-
 /* Custom Scrollbar Styles */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
@@ -26,23 +21,11 @@
 
 .custom-scrollbar {
   scrollbar-width: thin;           
-  scrollbar-color: #f43f5e #fef3c7; /* Thumb and track colors */
+  scrollbar-color: #f43f5e #fef3c7; 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ===calendar==== */
 
-/* Optional enhancements if needed */
 .rbc-calendar {
   font-size: 0.95rem;
 }
